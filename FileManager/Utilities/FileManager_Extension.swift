@@ -103,11 +103,11 @@ public extension FileManager{
     
     public func printUrlProperties(url: URL){
         print("URL name: \(url.lastPathComponent) \n")
-        print("Is a directory: \(url.isUrlDirectory) \n")
-        print("Is readable: \(url.isUrlReadable) \n")
-        print("Creation date: \(url.creationDate) \n")
-        print("Access date: \(url.accessDate) \n")
-        print("Modify date: \(url.modifycationDate) \n")
+        print("Is a directory: \(url.isUrlDirectory ?? false) \n")
+        print("Is readable: \(url.isUrlReadable ?? false) \n")
+        print("Creation date: \(url.creationDate ?? Date()) \n")
+        print("Access date: \(url.accessDate ?? Date()) ")
+        print("Modify date: \(url.modifycationDate ?? Date())  \n")
         print("---------------------------")
     }
     
