@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HsinFileManager"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "A useful FileManager."
 
   # This description is used to generate tags and improve search results.
@@ -28,11 +28,11 @@ Pod::Spec.new do |spec|
 A useful FileManager!It contains basic file manager and JSON encoder/decoder! 
                    DESC
 spec.swift_version = "4.2"
- 13   spec.homepage     = "https://github.com/HsinChungHan/FileManager"
- 14   spec.license      = { :type => "MIT", :file => "LICENSE" }
- 15   spec.author             = { "HsinChungHan" => "hooy123456@gapp.nthu.edu.tw    " }
- 16   spec.platform     = :ios, "10.0"
- 17   spec.source       = { :git => "https://github.com/HsinChungHan/FileManager.git", :tag => "#{spec.version}" }
+ 13   spec.homepage = "https://github.com/HsinChungHan/FileManager"
+ 14   spec.license = { :type => "MIT", :file => "LICENSE" }
+ 15   spec.author = { "HsinChungHan" => "hooy123456@gapp.nthu.edu.tw    " }
+ 16   spec.platform = :ios, "10.0"
+ 17   spec.source = { :git => "https://github.com/HsinChungHan/FileManager.git", :tag => "#{spec.version}" }
  18   spec.source_files  = "FileManager/Utilities/*.{swift}"
  19
  20 end
